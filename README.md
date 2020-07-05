@@ -1,2 +1,1 @@
-# vertical_lift_performance
-VLP library in Python
+# Oil and Gas Production Systems Analysis in Python
