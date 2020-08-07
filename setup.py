@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'psa-og',
-  packages = ['psa-og'],
+  name = 'psapy',
+  packages = ['psapy'],
   version = '0.1',
   license='MIT',
   description = 'Production System Analysis',
   author = 'Orkahub Energy',
   author_email = 'orkahub@gmail.com',
   url = 'https://github.com/orkahub/production_systems_analysis',
-  download_url = 'https://github.com/orkahub/res-eng-mat-bal/archive/v_02.tar.gz',
+  download_url = 'https://github.com/orkahub/production_systems_analysis/archive/v_01.tar.gz',
   keywords = ['RESERVOIR', 'ENERGY', 'OIL', 'GAS', 'PRODUCTION', 'VLP', 'IPR'],
   install_requires=[
           'pandas',
