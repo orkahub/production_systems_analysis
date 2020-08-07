@@ -1,7 +1,7 @@
 # coding=utf-8
 from __future__ import division 
 import math
-import Libraries.FluidProps as FluidProps
+import psapy.FluidProps as FluidProps
 import matplotlib.pyplot as plt
   
 #Pressure=3000.0

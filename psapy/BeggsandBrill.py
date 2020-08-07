@@ -1,7 +1,7 @@
 # coding=utf-8
 #import sys
-#sys.path.append('C:\Users\frank\PEG Commmunity\VLP\Libraries')
-import Libraries.FluidProps as FluidProps
+#sys.path.append('C:\Users\frank\PEG Commmunity\VLP\psapy')
+import psapy.FluidProps as FluidProps
 import math
 
 def Pgrad(P, T, oil_rate, wtr_rate, Gor, gas_grav, oil_grav, wtr_grav, d, angle):
