@@ -64,7 +64,7 @@ def VogelIPR(P, Pb, Pwf, Qo, nPoints):
         i=i+1
 
     VogelList=[QList,PwfList]
-    #print(VogelList)
+
     return VogelList
 
 def Vogel_DarcyIPR(P, k,h,visc, re,rw, s, OilFVF,Temp, Pb, nPoints):
@@ -85,7 +85,7 @@ def Vogel_DarcyIPR(P, k,h,visc, re,rw, s, OilFVF,Temp, Pb, nPoints):
     while (i<=nPoints):
                      
         Pwfs=PwfList[i-1]-mStep
-        print(Pwfs)
+
         
         if Pwfs>=Pb:
             Q=J*(P-Pwfs)
