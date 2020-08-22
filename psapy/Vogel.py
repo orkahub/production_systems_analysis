@@ -4,20 +4,8 @@ import math
 import psapy.FluidProps as FluidProps
 import matplotlib.pyplot as plt
   
-#Pressure=3000.0
-#Thickness=75.0
-#GasGrav=0.65
-#API= 28.0
-#GOR= 375.0
-#Temp=150.0
-#rw=0.328
-#re=1053.0
-#s=-1.5
-#Psat = FluidProps.Pbub(Temp,75,100,GasGrav, API, GOR)
-
 def Darcy_IPR(k,h,visc, re,rw, s, P, OilFVF, nPoints):
     """Function to calculate IPR using Darcy's Equation.  It returns a list with a pair of Pressure and rates"""
-    #Q= (k*h/visc)*(P-Pwf)/(141.2*OilFVF*visc*(math.log(re/rw)-0.75+s))
     PwfList=[]
     QList=[]
     QList.append(0)
@@ -76,7 +64,7 @@ def VogelIPR(P, Pb, Pwf, Qo, nPoints):
         i=i+1
 
     VogelList=[QList,PwfList]
-    print(VogelList)
+    #print(VogelList)
     return VogelList
 
 def Vogel_DarcyIPR(P, k,h,visc, re,rw, s, OilFVF,Temp, Pb, nPoints):
